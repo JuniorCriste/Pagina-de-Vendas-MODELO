@@ -1,5 +1,8 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Work+Sans:200&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<link rel="shortcut icon" type="image/png" href="/CursoProducao.png"/>
+<title>Curso de Produção Audiovisual por Junior Criste e Informaticode</title>
 <style>
 	body{
 		background-image: url('https://2.bp.blogspot.com/-Q4sETkyhuA4/XqCVSnP3XXI/AAAAAAAAG4o/JTl21N2l2LA0lMCWi_Gj_nkY4loO1Z5eACLcBGAsYHQ/s1600/backedit2.png');
@@ -423,3 +426,4 @@
     <img draggable="false" width="308" height="200" src="https://1.bp.blogspot.com/-UZLQO_iiu5U/XqCQddTozRI/AAAAAAAAG4Q/4N4Vf0lN9zk9_WZkYYZJ7SusptZIalSDQCLcBGAsYHQ/s1600/DdsJuniorCriste_2.pngg">
 	<br />		
 </center>
+
