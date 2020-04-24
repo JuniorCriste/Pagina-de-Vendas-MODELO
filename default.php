@@ -1,7 +1,7 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Work+Sans:200&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
-<link rel="shortcut icon" type="image/png" href="/CursoProducao.png"/>
+<link rel="shortcut icon" type="image/png" href="imgs/CursoProducao.png"/>
 <title>Curso de Produção Audiovisual por Junior Criste e Informaticode</title>
 <style>
 	body{
@@ -26,7 +26,30 @@
 	padding-right: 38px;
 	font-family: 'Work Sans', sans-serif;
 	}
+
+    .sobre{
+	background-color: #1d2d4f;
+	color: white;
+	width: 100%;
+	height: auto;	
+	display: flex;
+	font-size: 22px;
+	margin-left: -30px;
+	padding: 38px;
+    text-align: left;
+	font-family: 'Work Sans', sans-serif;
+    text-align: justify;
+    }
+
+    .sobre img{
+    width: 300px;
+    height: auto;
+    }
 	
+    .sobre div{
+    padding: 40px;
+    }
+
 	.baixo3{
 	background-color: efefef;
 	color: black;
@@ -75,15 +98,16 @@
 	font-size: 14px;
 	padding: 5px;
 	color: white;
-	background-color:  #1c1c1b;
-    margin-bottom: 1px; 
+	background-color:  #292a2b;
+	transition: 0.3s ease-out;
 	}
 	
     .modBox:hover{
-    color:  #1c1c1b;
-	background-image: url('https://2.bp.blogspot.com/-lJKJ5-M6rOk/Xp9TLxN8q5I/AAAAAAAAG3I/3rUytLmqPIslnSv7g_eOiiRfOkavb1dkACLcBGAsYHQ/s1600/fundcover.png');
+    color:  black;
+	background-color:  #eaeaea;
 	background-size: cover;
-	transition: 0.8s ease-out;
+    margin-left: 10px;
+	transition: 0.3s ease-out;
 		}
 	
 	#Modulo10{
@@ -113,30 +137,19 @@
 	h3{
 	font-size: 20px;
 	}
-
+@media only screen and (min-width: 1021px){
 	
 	#Modulo1{
-	background-color: #1c1c1b;
 	border-radius: 0px 240px 0px 0px;
 	}	
 	
-	#Modulo3{
-	background-color: #1c1c1b;
+	
+	#contato{
+    width: 26%;
+    height: auto;
+	
+	}		
 	}	
-	
-	#Modulo5{
-	background-color: #1c1c1b;
-	}	
-	
-	#Modulo7{
-	background-color: #1c1c1b;
-	}	
-	
-	#Modulo9{
-	background-color: #1c1c1b;
-	}
-	
-		
 		.linhas{
 			padding: 20px;
 			height: 130px;
@@ -198,7 +211,75 @@
 		font-size: 20px;
         box-shadow: 0px 15px 30px 10px black;
 		}
-		
+
+        @media only screen and (max-width: 1020px){
+        .sobre {
+        display: block;
+        padding-left: 60px;
+        }
+
+        .sobre img{
+        width: 600px;
+        text-align: center;
+        }
+
+        .baixo{
+        display: block;
+        padding-right: 20px;
+        padding-left: 70px;
+        }
+
+        .baixo3{
+        display: block;
+        padding-right: 20px;
+        padding-left: 70px;
+        }
+
+        #baixo2{
+        display: block;
+        padding-right: 20px;
+        padding-left: 70px;
+        }
+
+        #Blinha1{
+        width: 70%;
+		margin-left: 0px;     
+		margin-top: 4px;       
+        }
+
+
+        #Blinha2{
+        width: 70%;
+		margin-left: 0px;       
+		margin-top: 4px;  
+        }
+
+        .linhas{
+        height: auto;   
+        font-size: 30px; 
+        }
+
+        .modbox{
+        background-color: #cfd0d3;
+        color: black; 
+        }
+
+        .euquerotopo{
+        width: 85%;
+        font-size: 30px; 
+        }
+
+        .euquero{
+        width: 90%;
+        font-size: 30px; 
+        }
+
+        #contato{
+        width: 90%;
+        font-size: 30px; 
+        }
+
+        }
 	</style>
 	<center>
 		<div id="topo">
@@ -421,9 +502,22 @@
 	<br />		
 	
 	</div>		
+<div class="sobre">
+<div>
+<img src="assets/Junior.jpeg" draggable="false">
+</div>
+<div>
+<b>Informaticode</b> é um grupo voltado ao ensino, criado por <b>Junior Criste</b>.<br />
+Desde 2012 distribuindo conhecimento.
+<p>
+Junior Criste é natural do Espirito Santo, desde 2010 agregou ao mundo da informação compartilhada.<br />
+Se tornou bolsista no curso Análises e Desenvolvimento de Sistemas em São Paulo, também estudou edição de conteúdo audiovisual. Depois estudou mais dois anos, dessa vez, matemática.<br />
+Já ministrou 3 cursos de diferentes áreas na produção audiovisual.<p>
+Todo produto fornecido pelo Informaticode recebe o devido suporte, afinal, lutamos pelo acesso ao conhecimento.
+</div>
+</div>
 	<br />		
 	<br />	
-    <img draggable="false" width="308" height="200" src="https://1.bp.blogspot.com/-UZLQO_iiu5U/XqCQddTozRI/AAAAAAAAG4Q/4N4Vf0lN9zk9_WZkYYZJ7SusptZIalSDQCLcBGAsYHQ/s1600/DdsJuniorCriste_2.pngg">
+    <img draggable="false" id="contato" src="https://1.bp.blogspot.com/-UZLQO_iiu5U/XqCQddTozRI/AAAAAAAAG4Q/4N4Vf0lN9zk9_WZkYYZJ7SusptZIalSDQCLcBGAsYHQ/s1600/DdsJuniorCriste_2.pngg">
 	<br />		
 </center>
-
