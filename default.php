@@ -159,7 +159,6 @@
 		
 		#Blinha1{
 			padding-top: 80px;
-			padding-botton: 80px;
 			width: 50%;
 			margin-left: 70px;
 			margin-top: 10px;
@@ -167,7 +166,6 @@
 		
 		#Blinha2{
 			padding-top: 80px;
-			padding-botton: 80px;
 			width: 50%;
 			margin-left: 40px;
 			margin-top: 10px;
