@@ -1,11 +1,11 @@
+<title>Curso de Produção Audiovisual por Junior Criste e Informaticode</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Work+Sans:200&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
 <link rel="shortcut icon" type="image/png" href="imgs/CursoProducao.png"/>
-<title>Curso de Produção Audiovisual por Junior Criste e Informaticode</title>
 <style>
 	body{
-		background-image: url('https://2.bp.blogspot.com/-Q4sETkyhuA4/XqCVSnP3XXI/AAAAAAAAG4o/JTl21N2l2LA0lMCWi_Gj_nkY4loO1Z5eACLcBGAsYHQ/s1600/backedit2.png');
+		background-image: url('imgs/fundo.png');
 		background-repeat: no-repeat;
 		background-color: #0d0d0d;
 	}
@@ -34,7 +34,7 @@
 	height: auto;	
 	display: flex;
 	font-size: 22px;
-	margin-left: -30px;
+	margin-left: -68px;
 	padding: 38px;
     text-align: left;
 	font-family: 'Work Sans', sans-serif;
@@ -216,6 +216,7 @@
         .sobre {
         display: block;
         padding-left: 60px;
+	    margin-left: -35px;
         }
 
         .sobre img{
@@ -289,7 +290,7 @@
 		Aprenda a trabalhar com audiovisual usando ferramentas gratuitas!
 		</div>
 		<br />
-		<iframe id="youtubehere" width="720" height="405" src="https://www.youtube.com/embed/hIOGEQHWP4s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe id="youtubehere" width="720" height="405" src="https://www.youtube.com/embed/qH7LUQl3AZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<br />
 		<br />
 		
@@ -404,11 +405,11 @@
 			</div>
 			</div>		
 		</div>
-		<img draggable="false" src="https://2.bp.blogspot.com/-xDzd0N7YwgU/Xp9YP5Xc-wI/AAAAAAAAG3g/ooeUMyiN3qkJsDBNWpnn53zaWOiIONG7wCLcBGAsYHQ/s1600/softwaresFree.png">
+		<img draggable="false" src="imgs/softwaresFree.png">
 
 <div class="baixo">
 	<div><br /><br />
-		<img draggable="false" width="455px" height="300px" src="https://d335luupugsy2.cloudfront.net/cms/files/103681/1585070345/$j0k4c2fgipe">
+		<img draggable="false" width="455px" height="300px" src="imgs/selo.png">
 		</div>
 		<div><br />
 			<b>Acessou o treinamento e não gostou do que viu?</b><br />
@@ -421,12 +422,12 @@
 	</div>
 
 <div class="baixo3">
-<img draggable="false" src="https://4.bp.blogspot.com/-ef0-Ju-yJvs/XqCtZZusSeI/AAAAAAAAG48/72zTT7cGyuIGYhrrUD4I2NdfdoD1_O9yACLcBGAsYHQ/s1600/ofertalimitada.png"><br /><br />
-<img draggable="false" src="https://1.bp.blogspot.com/-dGHzAgAyOhw/XqCv2W9X5vI/AAAAAAAAG5Y/dmWtDFWWkc4KKy5OOYb34YIzt46sV0aYACLcBGAsYHQ/s1600/formasdepagamento.png"><br />
-<img draggable="false" src="https://4.bp.blogspot.com/-TkQer7uBUjM/XqCtZU--_aI/AAAAAAAAG5A/1XBAsENKDroHme6uhs35rbevbeTkPs2gQCLcBGAsYHQ/s1600/MaisInfo.png"><br />
+<img draggable="false" src="imgs/ofertalimitada.png">
+<img draggable="false" src="imgs/formasdepagamento.png">
+<img draggable="false" src="imgs/MaisInfo.png">
 </div>
 	<div id="flutuante"><br />
-<img draggable="false" src="https://1.bp.blogspot.com/-6fGE2M1WN8M/XqCB04XxGxI/AAAAAAAAG4A/r7qRHJMJnF4K3VMINonzRXHFgH959kHIACLcBGAsYHQ/s1600/certificadoMSG.png"><br />
+<img draggable="false" src="imgs/certificadoMSG.png"><br />
 <b>DÚVIDAS FREQUENTES</b><br /><br /></div>
 <div id="baixo2">
 		
@@ -507,17 +508,18 @@
 <img src="assets/Junior.jpeg" draggable="false">
 </div>
 <div>
-<b>Informaticode</b> é um grupo voltado ao ensino, criado por <b>Junior Criste</b>.<br />
-Desde 2012 distribuindo conhecimento.
+<b>Informaticode</b> é um grupo voltado ao ensino, criado por <b>Junior Criste</b>.
 <p>
 Junior Criste é natural do Espirito Santo, desde 2010 agregou ao mundo da informação compartilhada.<br />
 Se tornou bolsista no curso Análises e Desenvolvimento de Sistemas em São Paulo, também estudou edição de conteúdo audiovisual. Depois estudou mais dois anos, dessa vez, matemática.<br />
-Já ministrou 3 cursos de diferentes áreas na produção audiovisual.<p>
-Todo produto fornecido pelo Informaticode recebe o devido suporte, afinal, lutamos pelo acesso ao conhecimento.
+Já ministrou 3 cursos de diferentes áreas na produção audiovisual.</p>
+<p>Todo produto fornecido pelo Informaticode recebe o devido suporte, afinal, lutamos pelo acesso ao conhecimento.</p>
+<p>Desde 2012 distribuindo conhecimento.</p>
 </div>
 </div>
 	<br />		
 	<br />	
-    <img draggable="false" id="contato" src="https://1.bp.blogspot.com/-UZLQO_iiu5U/XqCQddTozRI/AAAAAAAAG4Q/4N4Vf0lN9zk9_WZkYYZJ7SusptZIalSDQCLcBGAsYHQ/s1600/DdsJuniorCriste_2.pngg">
+    <img draggable="false" id="contato" src="imgs/contato.png">
 	<br />		
 </center>
+
