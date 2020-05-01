@@ -6,5 +6,6 @@
 #### Além destes, existe um arquivo <a href="https://github.com/JuniorCriste/Pagina-de-Vendas-MODELO/blob/master/Projeto/audiovisual.css">audiovisual.css</a>, onde estão todas as configurações de estilo do projeto final e do menu.
 ###### Criado por <a href="https://github.com/juniorcriste">Junior Criste</a>
 ### <a href="https://www.informaticode.store/audiovisual">Página na internet</a>
-<br />
-<iframe src="https://www.informaticode.store/audiovisual"  width="950" height="600"></iframe>
+
+##### Fale comigo:<a href="maito:informaticode@gmail.com">E-mail</a> - <a href="https://www.instagram.com/myself.junior/">Instagram</a>
+
