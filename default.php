@@ -1,285 +1,23 @@
 <title>Curso de Produção Audiovisual por Junior Criste e Informaticode</title>
+<link href="audiovisual.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Montserrat|Staatliches&display=swap' rel='stylesheet'/>
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Work+Sans:200&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
 <link rel="shortcut icon" type="image/png" href="imgs/CursoProducao.png"/>
-<style>
-	body{
-		background-image: url('imgs/fundo.png');
-		background-repeat: no-repeat;
-		background-color: #0d0d0d;
-	}
-	#topo{
-	font-family: 'Roboto', sans-serif;
-	line-height: 20px;
-    color: white;
-	font-size: 30px;	
-	}
-	.baixo{
-	background-color: efefef;
-	color: black;
-	width: 100%;
-	height: auto;	
-	display: flex;
-	font-size: 30px;
-	margin-left: -30px;
-	padding-right: 38px;
-	font-family: 'Work Sans', sans-serif;
-	}
-
-    .sobre{
-	background-color: #1d2d4f;
-	color: white;
-	width: 100%;
-	height: auto;	
-	display: flex;
-	font-size: 22px;
-	margin-left: -68px;
-	padding: 38px;
-    text-align: left;
-	font-family: 'Work Sans', sans-serif;
-    text-align: justify;
-    }
-
-    .sobre img{
-    width: 300px;
-    height: auto;
-    }
-	
-    .sobre div{
-    padding: 40px;
-    }
-
-	.baixo3{
-	background-color: efefef;
-	color: black;
-	width: 100%;
-	height: auto;	
-	font-size: 15px;
-	margin-left: -30px;
-	padding-right: 38px;
-	font-family: 'Work Sans', sans-serif;
-	}
-
-	#flutuante{
-	color: white;
-	width: 100%;
-	height: auto;	
-	font-size: 30px;
-	font-family: 'Work Sans', sans-serif;
-	}
-	
-	 #baixo2{
-	background-color: efefef;
-	color: black;
-	width: 100%;
-	height: auto;	
-	display: flex;
-	font-size: 18px;
-	margin-left: -30px;
-	padding-right: 38px;
-	font-family: 'Work Sans', sans-serif;
-	}
-	
-	#topo h1{
-	font-size: 50px;
-	}
-	
-	#full-container {
-     font-family: 'Work Sans', sans-serif;
-	width: 800px;
-	background-color: #0d0d0d;
-	border-radius: 30px 240px;
-		}
-		
-	.modBox{
-	width: 100%;
-	height: auto;
-	font-size: 14px;
-	padding: 5px;
-	color: white;
-	background-color:  #292a2b;
-	transition: 0.3s ease-out;
-	}
-	
-    .modBox:hover{
-    color:  black;
-	background-color:  #eaeaea;
-	background-size: cover;
-    margin-left: 10px;
-	transition: 0.3s ease-out;
-		}
-	
-	#Modulo10{
-	width: 100%;
-	height: 125px;
-	font-size: 25px;
-	padding: 5px;
-	background-color: #e4e0e5;
-	text-align: center;
-	border-radius: 0px 0px 40px 240px;
-	}
-
-	#youtubehere{
-	border-radius: 40px 40px 40px 0px;
-	}
-	
-	#linha1, #linha2, #linha3{
-		/* display: flex; */
-	    text-align: center; 
-	}
-
-	h4{
-	line-height: 35px;
-	font-size: 14px;
-	}
-	
-	h3{
-	font-size: 20px;
-	}
-@media only screen and (min-width: 1021px){
-	
-	#Modulo1{
-	border-radius: 0px 240px 0px 0px;
-	}	
-	
-	
-	#contato{
-    width: 26%;
-    height: auto;
-	
-	}		
-	}	
-		.linhas{
-			padding: 20px;
-			height: 130px;
-			background-color: #dddddd;
-	        border-radius: 20px 20px 20px 20px;
-		}
-		
-		#Blinha1{
-			padding-top: 80px;
-			width: 50%;
-			margin-left: 70px;
-			margin-top: 10px;
-		}
-		
-		#Blinha2{
-			padding-top: 80px;
-			width: 50%;
-			margin-left: 40px;
-			margin-top: 10px;
-		}
-
-		.euquero{
-		width: 70%;
-		height: 100px;
-		background-image: linear-gradient(#d83a3a, #931414,  #a31515);
-		border: none;
-		color: white;
-		font-size: 17px;
-        border-radius: 15px 15px 15px 15px;
-        box-shadow: 0px 5px 20px 10px #969494;
-        font-weight: bold;
-        transition: 0.6s;
-        cursor: pointer;        
-		}
-
-		.euquero:hover{
-		font-size: 20px;
-        box-shadow: 0px 15px 10px 10px #969494;
-		}
-		
-
-		.euquerotopo{
-		width: 720px;
-		height: 100px;
-		background-image: linear-gradient(#1da573, #20cc8d,  #1da573);
-		border: none;
-		color: #2f3030;
-		font-size: 19px;
-        border-radius: 15px 15px 15px 15px;
-        box-shadow: 0px 15px 40px 10px black;
-        font-weight: bold;
-        transition: 0.6s;
-        cursor: pointer;        
-		}
-
-		.euquerotopo:hover{
-		font-size: 20px;
-        box-shadow: 0px 15px 30px 10px black;
-		}
-
-        @media only screen and (max-width: 1020px){
-        .sobre {
-        display: block;
-        padding-left: 60px;
-	    margin-left: -35px;
-        }
-
-        .sobre img{
-        width: 600px;
-        text-align: center;
-        }
-
-        .baixo{
-        display: block;
-        padding-right: 20px;
-        padding-left: 70px;
-        }
-
-        .baixo3{
-        display: block;
-        padding-right: 20px;
-        padding-left: 70px;
-        }
-
-        #baixo2{
-        display: block;
-        padding-right: 20px;
-        padding-left: 70px;
-        }
-
-        #Blinha1{
-        width: 70%;
-		margin-left: 0px;     
-		margin-top: 4px;       
-        }
 
 
-        #Blinha2{
-        width: 70%;
-		margin-left: 0px;       
-		margin-top: 4px;  
-        }
+<div id="menu">
+<ul>
+<li><a href="#">VÍDEO</a></li>
+<li><a href="#modulos">MÓDULOS</a></li>
+<li><a href="#garantia">GARANTIA</a></li>
+<li><a href="#certificado">CERTIFICADO</a></li>
+<li><a href="#duvidas">DÚVIDAS FREQUENTES</a></li>
+<li><a href="https://cursodeproducaoaudiovisual.club.hotmart.com/login"><b>ACESSAR CURSO</b></a></li>
+</ul>
+</div>
 
-        .linhas{
-        height: auto;   
-        font-size: 30px; 
-        }
-
-        .modbox{
-        background-color: #cfd0d3;
-        color: black; 
-        }
-
-        .euquerotopo{
-        width: 85%;
-        font-size: 30px; 
-        }
-
-        .euquero{
-        width: 90%;
-        font-size: 30px; 
-        }
-
-        #contato{
-        width: 90%;
-        font-size: 30px; 
-        }
-
-        }
-	</style>
 	<center>
 		<div id="topo">
 		<br />
@@ -298,7 +36,7 @@
 	<br />
 
 	
-	<div id="full-container">
+	<div id="modulos">
 		
 			<any style="font-size: 40px; font-family: 'Roboto', sans-serif; color: white;">CONTEÚDO DO CURSO</any>
 			
@@ -403,9 +141,9 @@
 			</div>
 			</div>		
 		</div>
-		<img draggable="false" src="imgs/softwaresFree.png">
+		<img draggable="false" id="garantia" src="imgs/softwaresFree.png">
 
-<div class="baixo">
+<div  class="baixo">
 	<div><br /><br />
 		<img draggable="false" width="455px" height="300px" src="imgs/selo.png">
 		</div>
@@ -424,10 +162,10 @@
 <img draggable="false" src="imgs/formasdepagamento.png">
 <img draggable="false" src="imgs/MaisInfo.png">
 </div>
-	<div id="flutuante"><br />
+	<div id="certificado"><br />
 <img draggable="false" src="imgs/certificadoMSG.png"><br />
 <b>DÚVIDAS FREQUENTES</b><br /><br /></div>
-<div id="baixo2">
+<div id="duvidas">
 		
 	<div id="Blinha1"><div class="linhas"><b>Quanto tempo terei acesso ao curso?</b>
 	<br />
