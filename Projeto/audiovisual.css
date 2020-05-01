@@ -1,9 +1,17 @@
 body{
-		background-image: url('../imgs/fundo.png');
-		background-repeat: no-repeat;
-		background-color: #0d0d0d;
-	}
+background-image: url('imgs/fundo.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-color: #0d0d0d;
+background-size: 100%;
+}
 	
+@media only screen and (max-width: 1036px){
+    
+body{
+background-size: 300%;
+}
+}
 	
 #menu{
 display: flex;
@@ -70,7 +78,7 @@ transition: 0.3s;
 	font-family: 'Roboto', sans-serif;
 	line-height: 20px;
     color: white;
-	font-size: 30px;	
+	font-size: 30px;
 	}
 	.baixo{
 	background-color: #efefef;
@@ -143,11 +151,11 @@ transition: 0.3s;
 	}
 	
 	#modulos {
-     font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 	width: 800px;
-	background-color: #0d0d0d;
+	background-color: transparent;
 	border-radius: 30px 240px;
-		}
+	}
 		
 	.modBox{
 	width: 100%;
@@ -194,7 +202,7 @@ transition: 0.3s;
 	h3{
 	font-size: 20px;
 	}
-  @media only screen and (max-width: 1020px){
+@media only screen and (min-width: 1021px){
 	
 	#Modulo1{
 	border-radius: 0px 240px 0px 0px;
@@ -202,7 +210,7 @@ transition: 0.3s;
 	
 	
 	#contato{
-    width: 26%;
+    width: 30%;
     height: auto;
 	
 	}		
