@@ -7,5 +7,5 @@
 ###### Criado por <a href="https://github.com/juniorcriste">Junior Criste</a>
 ### <a href="https://www.informaticode.store/audiovisual">Página na internet</a>
 
-##### Fale comigo:<a href="maito:informaticode@gmail.com">E-mail</a> - <a href="https://www.instagram.com/myself.junior/">Instagram</a>
+##### Fale comigo: <a href="maito:informaticode@gmail.com">E-mail</a> - <a href="https://www.instagram.com/myself.junior/">Instagram</a>
 
