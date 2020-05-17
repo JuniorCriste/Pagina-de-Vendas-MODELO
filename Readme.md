@@ -10,5 +10,14 @@
 ###### Criado por <a href="https://github.com/juniorcriste">Junior Criste</a>
 ### <a href="https://www.informaticode.store/audiovisual">Página na internet (Usando a versão mais autal, a 2)</a>
 
-##### Fale comigo: <a href="mailto:informaticode@gmail.com">E-mail</a> - <a href="https://www.instagram.com/myself.junior/">Instagram</a>
+#### Algumas capturas:
 
+
+<img src="https://github.com/JuniorCriste/Pagina-de-Vendas-MODELO/blob/master/Projeto/assets/Prints/Print1.png">
+<img src="https://github.com/JuniorCriste/Pagina-de-Vendas-MODELO/blob/master/Projeto/assets/Prints/Print2.png">
+<img src="https://github.com/JuniorCriste/Pagina-de-Vendas-MODELO/blob/master/Projeto/assets/Prints/Print3.png">
+<img src="https://github.com/JuniorCriste/Pagina-de-Vendas-MODELO/blob/master/Projeto/assets/Prints/Print4.png">
+<img src="https://github.com/JuniorCriste/Pagina-de-Vendas-MODELO/blob/master/Projeto/assets/Prints/Print5.png">
+
+
+##### Fale comigo: <a href="mailto:informaticode@gmail.com">E-mail</a> - <a href="https://www.instagram.com/myself.junior/">Instagram</a>
