@@ -1,0 +1,390 @@
+body{
+background-image: url('imgs/fundo.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-color: #0d0d0d;
+background-size: 100%;
+}
+	
+@media only screen and (max-width: 1036px){
+    
+body{
+background-size: 300%;
+}
+}
+	
+#menu{
+display: flex;
+justify-content: center;
+background-color: #e2e2e2;
+transition: 0.3s;
+position: fixed;
+top: 0;
+left: 0;
+height:55px;
+width: 100%;
+box-shadow: -10px 0px 10px 1px black;
+}
+
+#menu:hover{
+background-color: #eaeded;
+transition: 0.3s;
+}
+
+#menu li{
+display: inline-block;
+font-family: 'Montserrat', sans-serif;
+padding-left: 30px;
+padding-right: 30px;
+transition: 0.3s;
+}
+
+#menu li:hover{
+padding-left: 40px;
+padding-right: 40px;
+transition: 0.3s;
+}
+
+#menu a{
+color: #111111;
+text-decoration: none;
+transition: 0.3s;
+}
+
+#menu a:hover{
+color: #1a9393;
+transition: 0.3s;
+}
+
+@media only screen and (max-width: 1020px){
+    
+#menu li{
+display: inline-block;
+font-family: 'Montserrat', sans-serif;
+padding-left: 10px;
+padding-right: 10px;
+transition: 0.3s;
+}
+
+#menu li:hover{
+padding-left: 12px;
+padding-right: 12px;
+transition: 0.3s;
+}
+
+}
+
+	#topo{
+	font-family: 'Roboto', sans-serif;
+	line-height: 20px;
+    color: white;
+	font-size: 30px;
+	}
+	.baixo{
+	background-color: #efefef;
+	color: black;
+	width: 100%;
+	height: auto;	
+	display: flex;
+	font-size: 30px;
+	margin-left: -30px;
+	padding-right: 38px;
+	font-family: 'Work Sans', sans-serif;
+	}
+
+    .sobre{
+	background-color: #1d2d4f;
+	color: white;
+	width: 100%;
+	height: auto;	
+	display: flex;
+	font-size: 22px;
+	margin-left: -68px;
+	padding: 38px;
+    text-align: left;
+	font-family: 'Work Sans', sans-serif;
+    text-align: justify;
+    }
+
+    .sobre img{
+    width: 300px;
+    height: auto;
+    }
+	
+    .sobre div{
+    padding: 40px;
+    }
+
+	.baixo3{
+	background-color: #efefef;
+	color: black;
+	width: 100%;
+	height: auto;	
+	font-size: 15px;
+	margin-left: -30px;
+	padding-right: 38px;
+	font-family: 'Work Sans', sans-serif;
+	}
+
+	#certificado{
+	color: white;
+	width: 100%;
+	height: auto;	
+	font-size: 30px;
+	font-family: 'Work Sans', sans-serif;
+	}
+	
+	 #duvidas{
+	background-color: #efefef;
+	color: black;
+	width: 100%;
+	height: auto;	
+	display: flex;
+	font-size: 18px;
+	margin-left: -30px;
+	padding-right: 38px;
+	font-family: 'Work Sans', sans-serif;
+	}
+	
+	#topo h1{
+	font-size: 50px;
+	}
+	
+	#modulos {
+    font-family: 'Work Sans', sans-serif;
+	width: 1200px;
+   background-color: transparent;
+   width: 82%;
+   padding-top: 100px;
+   padding-left:  10%;
+   padding-right:  10%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	}
+	
+	.aulas{
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+	
+   #modulos:hover div {
+   height: 200px;
+   }
+   
+   
+
+	.modBox{
+	width: 300px;
+	height: 80px;
+	font-size: 14px;
+	padding: 5px;
+    color:  black;
+	margin: 10px;
+	background-color:  #dbdbdb; 
+	overflow: hidden;
+	transition: 0.3s ease-out;
+	}
+
+livro{
+background-image: url('imgs/livros_emo.png') ;
+width: 10px;
+height: 10px;
+padding-left: 30px;
+background-size:30px;
+background-repeat: no-repeat;
+}
+
+exercicio{
+background-image: url('imgs/exercicios_emo.png') ;
+width: 10px;
+height: 10px;
+padding-left: 30px;
+background-size:30px;
+background-repeat: no-repeat;
+}
+	
+bonus{
+background-image: url('imgs/bonus_emo.png') ;
+width: 10px;
+height: 10px;
+padding-left: 30px;
+background-size:30px;
+background-repeat: no-repeat;
+}
+	
+certificado{
+background-image: url('imgs/certificado_emo.png') ;
+width: 10px;
+height: 10px;
+padding-left: 30px;
+background-size:30px;
+background-repeat: no-repeat;
+}
+	
+  .modBox:hover{
+    color:  white;
+	background-color:  #304949;
+	transform: scaleX(1.25) scaleY(1.25);
+	background-size: cover;
+	transition: 0.3s ease-out;
+   overflow-Y: auto;
+   -webkit-box-shadow: -2px 0px 25px -4px rgba(0,0,0,0.75);
+   -moz-box-shadow: -2px 0px 25px -4px rgba(0,0,0,0.75);
+   box-shadow: -2px 0px 25px -4px rgba(0,0,0,0.75);
+
+		}
+	
+	#youtubehere{
+	border-radius: 40px 40px 40px 0px;
+	}
+	
+	h4{
+	line-height: 25px;
+	font-size: 14px;
+	}
+	
+	h3{
+	font-size: 20px;
+	}
+@media only screen and (min-width: 1021px){
+	
+	#contato{
+    width: 30%;
+    height: auto;
+	
+	}		
+	}	
+		.linhas{
+			padding: 20px;
+			height: 130px;
+			background-color: #dddddd;
+	        border-radius: 20px 20px 20px 20px;
+		}
+		
+		#Blinha1{
+			padding-top: 80px;
+			width: 50%;
+			margin-left: 70px;
+			margin-top: 10px;
+		}
+		
+		#Blinha2{
+			padding-top: 80px;
+			width: 50%;
+			margin-left: 40px;
+			margin-top: 10px;
+		}
+
+		.euquero{
+		width: 70%;
+		height: 100px;
+		background-image: linear-gradient(#d83a3a, #931414,  #a31515);
+		border: none;
+		color: white;
+		font-size: 17px;
+        border-radius: 15px 15px 15px 15px;
+        box-shadow: 0px 5px 20px 10px #969494;
+        font-weight: bold;
+        transition: 0.6s;
+        cursor: pointer;        
+		}
+
+		.euquero:hover{
+		font-size: 20px;
+        box-shadow: 0px 15px 10px 10px #969494;
+		}
+		
+
+		.euquerotopo{
+		width: 720px;
+		height: 100px;
+		background-image: linear-gradient(#1da573, #20cc8d,  #1da573);
+		border: none;
+		color: #2f3030;
+		font-size: 19px;
+        border-radius: 15px 15px 15px 15px;
+        box-shadow: 0px 15px 40px 10px black;
+        font-weight: bold;
+        transition: 0.6s;
+        cursor: pointer;        
+		}
+
+		.euquerotopo:hover{
+		font-size: 20px;
+        box-shadow: 0px 15px 30px 10px black;
+		}
+
+        @media only screen and (max-width: 1020px){ 
+        .sobre {
+        display: block;
+        padding-left: 60px;
+        padding-right: 70px;
+	    margin-left: -35px;
+        }
+
+        .sobre img{
+        width: 600px;
+        text-align: center;
+        }
+
+        .baixo{
+        display: block;
+        padding-right: 20px;
+        padding-left: 70px;
+        }
+
+        .baixo3{
+        display: block;
+        padding-right: 60px;
+        padding-left: 70px;
+        }
+
+        #duvidas{
+        display: block;
+        padding-right: 60px;
+        padding-left: 70px;
+        }
+
+        #Blinha1{
+        width: 70%;
+		margin-left: 0px;     
+		margin-top: 4px;       
+        }
+
+
+        #Blinha2{
+        width: 70%;
+		margin-left: 0px;       
+		margin-top: 4px;  
+        }
+
+        .linhas{
+        height: auto;   
+        font-size: 30px; 
+        }
+
+        .modbox{
+        background-color: #cfd0d3;
+        color: black; 
+       height: 200px;
+        }
+
+        .euquerotopo{
+        width: 85%;
+        font-size: 30px; 
+        }
+
+        .euquero{
+        width: 90%;
+        font-size: 30px; 
+        }
+
+        #contato{
+        width: 90%;
+        font-size: 30px; 
+        }
+
+        }
